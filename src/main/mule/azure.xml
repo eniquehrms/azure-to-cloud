@@ -16,7 +16,7 @@ http://www.mulesoft.org/schema/mule/salesforce http://www.mulesoft.org/schema/mu
 				<ee:set-payload ><![CDATA[%dw 2.0
 output application/json
 ---
-"Hii " ++ attributes.queryParams.name as String ++ " using " ++ attributes.methods as String ++ " method"]]></ee:set-payload>
+"HiiI " ++ attributes.queryParams.name as String ++ " using " ++ attributes.methods as String ++ " method"]]></ee:set-payload>
 			</ee:message>
 		</ee:transform>
 	</flow>
